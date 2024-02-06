@@ -1,0 +1,18 @@
+module.exports=(req,res)=>{
+    if(req.session.is_logged_in)
+    {
+        if(req.session.email==="manishapanchal5591@gmail.com")
+        {
+            res.render("addproducts");
+            return;
+        }
+        else{
+             res.render("notadmin");
+            return;
+        }
+    }
+    else{
+        res.redirect("/login");
+        return;
+    }
+}

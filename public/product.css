@@ -1,0 +1,50 @@
+#products{
+    /* margin-top: 20px; */
+      display: flex;
+      background-color: aliceblue;
+      width:100%;
+      box-sizing: border-box;
+      padding: 20px;
+      text-align: center;
+      padding-bottom: 70px;
+      /* justify-content: space-between; */
+      flex-wrap:wrap;
+      /* align-items: space-between;  */
+    }
+    img{
+      width:90%;
+      height:90%;
+      border-radius: 10px;
+      /* box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    }
+    .img_div{
+      margin-bottom: 70px;
+       border-radius: 10px;
+       max-width:20%;
+       height:300px;
+       /* box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+       background-color: aliceblue;
+    }
+    #view{
+      float:right;
+      border-radius: 5px;
+      width:10%;
+      text-decoration: none;
+      color: black;
+      border:none;
+      background-color: rgb(91, 200, 200);
+      font-size: 17px;
+      padding: 12px;
+      margin:8px;
+      box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  input{
+    border-radius: 5px;
+    padding:5px;
+      text-decoration: none;
+      color: black;
+      border:none;
+      background-color: rgb(91, 200, 200);
+      margin:8px;
+      box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

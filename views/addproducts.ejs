@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./addproducts.css">
+    </head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <body>
+    <div id="main">
+        <a href="/changepassword" class="link">Change Password</a>
+        <a href="/logout" class="link float">Logout</a>
+        <h1>Welcome Admin</h1>
+        <div id="form">
+            <form>
+                <label>Product Name:</label>
+                <input type="text" name="product_name" placeholder="Product Name" id="p_name"required><br><br>
+                <label>Product Discription:</label>
+                <input type="text" name="discription" placeholder="Discription" id="dis" required><br><br>
+                <label>Product Price:</label>
+                <input type="number" name="price" placeholder="Price" id="p_price" min=1 required><br><br>
+                <label>Product Quantity:</label>
+                <input type="number" name="quantity" placeholder="Quantity" id="quan" min=1 required><br><br>
+                <label>Product Image:</label><br><br>
+                <input type="file" name="image" accept=".jpeg,.jpg,.png" id="file_uploads" required><br><br>
+                <input type="button" value="Add Product" id="btn">
+            </form>
+        </div>
+    </div>
+    <div id="second"></div>   
+    </body>
+    <script src="./addproducts.js"></script>
+</html>
